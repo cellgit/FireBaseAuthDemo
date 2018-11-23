@@ -17,6 +17,14 @@
 		F2C57F4421A846E2009FF207 /* FireBaseAuthFirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F4321A846E2009FF207 /* FireBaseAuthFirstTests.swift */; };
 		F2C57F4F21A846E2009FF207 /* FireBaseAuthFirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F4E21A846E2009FF207 /* FireBaseAuthFirstUITests.swift */; };
 		F2C57F5D21A84898009FF207 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2C57F5C21A84898009FF207 /* GoogleService-Info.plist */; };
+		F2C57F6B21A84AA9009FF207 /* MapClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F6121A84AA9009FF207 /* MapClusterViewController.swift */; };
+		F2C57F6C21A84AA9009FF207 /* SWMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F6221A84AA9009FF207 /* SWMapVC.swift */; };
+		F2C57F6D21A84AA9009FF207 /* SWGlobalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F6421A84AA9009FF207 /* SWGlobalStruct.swift */; };
+		F2C57F6E21A84AA9009FF207 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F6521A84AA9009FF207 /* UIViewController+Extension.swift */; };
+		F2C57F6F21A84AA9009FF207 /* SWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F6621A84AA9009FF207 /* SWConfiguration.swift */; };
+		F2C57F7021A84AA9009FF207 /* SWMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F6821A84AA9009FF207 /* SWMainViewController.swift */; };
+		F2C57F7121A84AA9009FF207 /* SWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F6921A84AA9009FF207 /* SWBaseViewController.swift */; };
+		F2C57F7221A84AA9009FF207 /* SWBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C57F6A21A84AA9009FF207 /* SWBaseTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,14 @@
 		F2C57F4E21A846E2009FF207 /* FireBaseAuthFirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseAuthFirstUITests.swift; sourceTree = "<group>"; };
 		F2C57F5021A846E2009FF207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C57F5C21A84898009FF207 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F2C57F6121A84AA9009FF207 /* MapClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapClusterViewController.swift; sourceTree = "<group>"; };
+		F2C57F6221A84AA9009FF207 /* SWMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMapVC.swift; sourceTree = "<group>"; };
+		F2C57F6421A84AA9009FF207 /* SWGlobalStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWGlobalStruct.swift; sourceTree = "<group>"; };
+		F2C57F6521A84AA9009FF207 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		F2C57F6621A84AA9009FF207 /* SWConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWConfiguration.swift; sourceTree = "<group>"; };
+		F2C57F6821A84AA9009FF207 /* SWMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMainViewController.swift; sourceTree = "<group>"; };
+		F2C57F6921A84AA9009FF207 /* SWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWBaseViewController.swift; sourceTree = "<group>"; };
+		F2C57F6A21A84AA9009FF207 /* SWBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWBaseTableViewController.swift; sourceTree = "<group>"; };
 		FAE48DE53E7F517DE1734D08 /* Pods-FireBaseAuthFirst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseAuthFirst.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseAuthFirst/Pods-FireBaseAuthFirst.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,8 +133,10 @@
 		F2C57F2A21A846E1009FF207 /* FireBaseAuthFirst */ = {
 			isa = PBXGroup;
 			children = (
+				F2C57F5E21A84AA9009FF207 /* Classes */,
 				F2C57F2B21A846E1009FF207 /* AppDelegate.swift */,
 				F2C57F2D21A846E1009FF207 /* ViewController.swift */,
+				F2C57F6321A84AA9009FF207 /* Manager */,
 				F2C57F2F21A846E1009FF207 /* Main.storyboard */,
 				F2C57F3521A846E2009FF207 /* Assets.xcassets */,
 				F2C57F3721A846E2009FF207 /* LaunchScreen.storyboard */,
@@ -145,6 +163,52 @@
 				F2C57F5021A846E2009FF207 /* Info.plist */,
 			);
 			path = FireBaseAuthFirstUITests;
+			sourceTree = "<group>";
+		};
+		F2C57F5E21A84AA9009FF207 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2C57F6721A84AA9009FF207 /* Main */,
+				F2C57F5F21A84AA9009FF207 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F2C57F5F21A84AA9009FF207 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F2C57F6021A84AA9009FF207 /* Cluster */,
+				F2C57F6221A84AA9009FF207 /* SWMapVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F2C57F6021A84AA9009FF207 /* Cluster */ = {
+			isa = PBXGroup;
+			children = (
+				F2C57F6121A84AA9009FF207 /* MapClusterViewController.swift */,
+			);
+			path = Cluster;
+			sourceTree = "<group>";
+		};
+		F2C57F6321A84AA9009FF207 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F2C57F6421A84AA9009FF207 /* SWGlobalStruct.swift */,
+				F2C57F6521A84AA9009FF207 /* UIViewController+Extension.swift */,
+				F2C57F6621A84AA9009FF207 /* SWConfiguration.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F2C57F6721A84AA9009FF207 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F2C57F6821A84AA9009FF207 /* SWMainViewController.swift */,
+				F2C57F6921A84AA9009FF207 /* SWBaseViewController.swift */,
+				F2C57F6A21A84AA9009FF207 /* SWBaseTableViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		F5EACB2E11A496A50B002267 /* Frameworks */ = {
@@ -373,7 +437,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C57F6B21A84AA9009FF207 /* MapClusterViewController.swift in Sources */,
+				F2C57F6D21A84AA9009FF207 /* SWGlobalStruct.swift in Sources */,
+				F2C57F6F21A84AA9009FF207 /* SWConfiguration.swift in Sources */,
+				F2C57F7121A84AA9009FF207 /* SWBaseViewController.swift in Sources */,
 				F2C57F2E21A846E1009FF207 /* ViewController.swift in Sources */,
+				F2C57F7021A84AA9009FF207 /* SWMainViewController.swift in Sources */,
+				F2C57F6C21A84AA9009FF207 /* SWMapVC.swift in Sources */,
+				F2C57F6E21A84AA9009FF207 /* UIViewController+Extension.swift in Sources */,
+				F2C57F7221A84AA9009FF207 /* SWBaseTableViewController.swift in Sources */,
 				F2C57F2C21A846E1009FF207 /* AppDelegate.swift in Sources */,
 				F2C57F3421A846E1009FF207 /* FireBaseAuthFirst.xcdatamodeld in Sources */,
 			);
